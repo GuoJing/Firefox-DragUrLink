@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <RDF:Description RDF:about="urn:mozilla:install-manifest">
+
+        <em:name>Drag Ur Link</em:name>
+        <em:version>0.9</em:version>
+        <em:id>{appid}</em:id>
+        <em:description>This make your easy open link by just darg the url link in the website</em:description>
+        <em:creator>{auther}</em:creator>
+        <em:homepageURL>http://www.shangducms.com/</em:homepageURL>
+        <em:contributor>JGuo</em:contributor>
+        <em:translator>JGuo</em:translator>
+        <em:iconURL>chrome://{appname}/skin/logo.png</em:iconURL>
+        <em:optionsURL>chrome://{appname}/content/options.xul</em:optionsURL>
+        
+        <em:targetApplication>
+            <RDF:Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>3.0</em:minVersion>
+                <em:maxVersion>3.6.*</em:maxVersion>
+            </RDF:Description>
+        </em:targetApplication>
+        
+        <em:file>
+         <RDF:Description about="urn:mozilla:extension:file:{appname}.jar">
+            <em:package>content/</em:package>
+            <em:locale>locale/en-US/</em:locale>
+            <em:skin>skin/</em:skin>
+        </RDF:Description>
+       </em:file>
+    </RDF:Description>
+</RDF:RDF>
