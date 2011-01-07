@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<?xml-stylesheet href="chrome://{appname}/skin/overlay.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM "chrome://{appname}/locale/overlay.dtd">
-<overlay id="{appname}-overlay"
-         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/x-javascript" src="overlay.js"/>
-  <script type="application/x-javascript" src="wt.ff.Pref.js"/>
-</overlay>
