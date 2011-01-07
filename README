@@ -1,5 +1,7 @@
-1.Install Netbeans
-2.Install Netbeans Firefox Develop Extension
-http://plugins.netbeans.org/PluginPortal/faces/PluginDetailPage.jsp?pluginid=4209
-3.Add this project
-4.RUN APP
+How to use
+
+1.zip all source
+2.change name to xpi
+3.darg to firefox
+
+SUPPORT FIREFOX 4

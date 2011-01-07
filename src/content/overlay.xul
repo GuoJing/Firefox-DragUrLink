@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://DragUrLink/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://DragUrLink/locale/overlay.dtd">
+<overlay id="DragUrLink-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="overlay.js"/>
+  <script type="application/x-javascript" src="pref.js"/>
+</overlay>

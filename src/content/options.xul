@@ -1,0 +1,20 @@
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://DragUrLink/skin/overlay.css" type="text/css"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="Option">
+    <script type="application/x-javascript" src="pref.js"/>
+    <script type="application/x-javascript" src="options.js"/>
+    <groupbox style="padding:5px;">
+        <caption label="New Tab Option"/>
+        <hbox>
+            <radiogroup id="selectsDragUrLink">
+                <radio id="select0DragUrLink" label="Open new link in current tab"/>
+                <radio id="select1DragUrLink" label="Open new link in new background tab"/>
+                <radio id="select2DragUrLink" label="Open new link in new foreground tab"/>
+            </radiogroup>
+        </hbox>
+    </groupbox>
+    <hbox>
+        <button onclick="close()" label="Close"/> <button onclick="DLOptions.saveAndExit()" label="OK"/>
+    </hbox>
+</window>
